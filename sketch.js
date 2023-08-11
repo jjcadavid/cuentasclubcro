@@ -1,7 +1,6 @@
 let table1;
 let table2;
 let filasEgresos,filasIngresos;
-let listadoPreguntas = [];
 let imagenIngresos;
 let imagenEgresos;
 let logo;
@@ -11,7 +10,7 @@ function preload() {
   table1 = loadTable("/Cuentas/ingresosCRO.csv", "csv", "header");
   table2 = loadTable("/Cuentas/egresosCRO.csv", "csv", "header");
   imagenIngresos = loadImage("/Imagenes/IngresosCRO.PNG");
-  imagenEgresos = loadImage("Imagenes/egresoCRO.PNG");
+  imagenEgresos = loadImage("/Imagenes/egresoCRO.PNG");
   logo = loadImage("Imagenes/logo2.png");
   saldo=loadImage("Imagenes/saldoCRO.PNG");
 }

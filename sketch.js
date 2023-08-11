@@ -7,10 +7,10 @@ let logo;
 let saldo;
 
 function preload() {
-  table1 = loadTable("/Cuentas/ingresosCRO.csv", "csv", "header");
-  table2 = loadTable("/Cuentas/egresosCRO.csv", "csv", "header");
-  imagenIngresos = loadImage("/Imagenes/IngresosCRO.PNG");
-  imagenEgresos = loadImage("/Imagenes/egresoCRO.PNG");
+  table1 = loadTable("Cuentas/ingresosCRO.csv", "csv", "header");
+  table2 = loadTable("Cuentas/egresosCRO.csv", "csv", "header");
+  imagenIngresos = loadImage("Imagenes/IngresosCRO.PNG");
+  imagenEgresos = loadImage("Imagenes/egresoCRO.PNG");
   logo = loadImage("Imagenes/logo2.png");
   saldo=loadImage("Imagenes/saldoCRO.PNG");
 }

@@ -7,12 +7,12 @@ let logo;
 let saldo;
 
 function preload() {
-  table1 = loadTable("Cuentas/ingresosCRO.csv", "csv", "header");
-  table2 = loadTable("Cuentas/egresosCRO.csv", "csv", "header");
-  imagenIngresos = loadImage("Imagenes/IngresosCRO.PNG");
-  imagenEgresos = loadImage("Imagenes/egresoCRO.PNG");
-  logo = loadImage("Imagenes/logo2.png");
-  saldo=loadImage("Imagenes/saldoCRO.PNG");
+  table1 = loadTable("ingresosCRO.csv", "csv", "header");
+  table2 = loadTable("egresosCRO.csv", "csv", "header");
+  //imagenIngresos = loadImage("Imagenes/IngresosCRO.PNG");
+ // imagenEgresos = loadImage("Imagenes/egresoCRO.PNG");
+  logo = loadImage("logo2.png");
+  //saldo=loadImage("Imagenes/saldoCRO.PNG");
 }
 function setup() {
   //createCanvas(windowWidth, windowHeight);
@@ -162,9 +162,9 @@ function mostrarSaldo(px,py){
   
 }
 
-function mostrarImagenes(){
+/*function mostrarImagenes(){
   image(logo,-width*0.1,height*0.02,width*0.5,height*0.4);
   image(imagenIngresos, width * 0.05, height * 0.15);
   image(imagenEgresos, width * 0.05, height * 0.4);
   image(saldo,width * 0.27, height * 0.65);
-}
+}*/
